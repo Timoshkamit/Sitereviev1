@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+header{
+  width: 100%;
+  background: black;
+  display: flex;
+}
+
+.header_logo{
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 56px;
+  margin-left: 12%;
+}
+
+nav{
+  margin-top: 56px;
+  margin-left: 20%;
+  z-index: 1;
+}
+
+.topnav a{
+  color: white;
+  text-align: center;
+  padding: 12px 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px){
+  .topnav a{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1290px){
+  .topnav a{
+    padding: 12px 20px;
+  }
+}
+
+@media screen and (max-width: 1113px){
+  .topnav a{
+    padding: 12px 10px;
+  }
+}
+
+@media screen and (max-width: 937px){
+  .topnav a{
+    padding: 12px 2.5px;
+  }
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.welcome{
+  background: black;
+  text-align: center;
+  padding: 200px 0 410px 0;
+}
+
+.topnav a:hover{
+  border-bottom: 3px solid orange;
+}
+
+.welcome p{
+  color: grey;
+  font-size: 20px;
+}
+
+.welcome h2{
+  color: grey;
+  font-size: 44px;
+}
+
+.obertkamycomp{
+  color: rgb(238, 158, 10);
+}
